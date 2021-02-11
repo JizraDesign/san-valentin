@@ -136,7 +136,7 @@ body{
     font-style: italic;
 }
 .cont__texto{
-    height: 80%;
+    height: 75%;
     overflow: hidden;
     font-family: dancing;
 }
@@ -300,11 +300,6 @@ body{
     
 }
 @media(min-width:1500px){
-    .texto{
-        font-size: 4vw;
-    }
-}
-@media(min-width:1920px){
     .texto{
         font-size: 3vw;
     }
