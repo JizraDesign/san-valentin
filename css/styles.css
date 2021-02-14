@@ -137,10 +137,12 @@ body{
     font-style: italic;
 }
 .cont__texto{
+    width: 100%;
     height: 75%;
     overflow: hidden;
     font-family: dancing;
 }
+.encabezado,
 .texto{
     width: 100%;
     text-align: center;
@@ -150,21 +152,28 @@ body{
     backdrop-filter: blur(5px);
     transition: all 0.3s linear;
 }
+.encabezado{
+    height: 15%;
+    display: none;
+}
 .emoji{
     width: 100%;
     max-width: 400px;
     transition: all 1s linear;
 }
+.encabezado.visible,
 .texto.visible{
     opacity: 1;
-    border: solid;
 }
 .texto .espera{
     display: inline-block;
 }
+
 .newTexto{
     width: 100%;
+    max-height: 85%;
     font-size: 4vw;
+    padding: 10px 0;
 }
 @keyframes espera {
     0%, 40%, 100% {
